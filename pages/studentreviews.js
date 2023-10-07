@@ -103,7 +103,7 @@ const Login = () => {
              <>
              <h1><b><i>You are EGLIGIBLE to be selected!</i></b></h1>
              </>
-           ):(<h1><b><i>Unfortunately, you do not meet the criteria to be egligible to be selected. Please try again later</i></b></h1>)}
+           ):(<h1><b><i>Unfortunately, you do not meet the criteria to be eligible to be selected. </i></b></h1>)}
           </>
         )}
       </center>
