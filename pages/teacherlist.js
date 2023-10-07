@@ -60,7 +60,7 @@ const Login = () => {
         <thead>
           <tr>
             <th>Name</th>
-            <th>Code</th>
+            
             <th>B.Ed</th>
             <th>B.A</th>
             <th>B.Sc</th>
@@ -78,7 +78,7 @@ const Login = () => {
         {teacherData.map((item, index) => (
   <tr key={index}>
     <td>{item.name}</td>
-    <td>{item.code}</td>
+    
     <td>{item.bed}</td>
     <td>{item.ba}</td>
     <td>{item.bsc}</td>
