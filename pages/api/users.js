@@ -51,7 +51,7 @@ export default (req, res) => {
     // verify email does not exist already
     client.connect(function(err) {
       assert.equal(null, err);
-      console.log('Connected to MongoDB server =>');
+      console.log('Connected');
       const db = client.db(dbName);
       const email = req.body.email;
       const password = req.body.password;
@@ -86,6 +86,6 @@ export default (req, res) => {
     });
   } else {
     // Handle any other HTTP method
-    res.status(200).json({users: ['John Doe']});
+    res.status(200).json({users: ['LMB']});
   }
 };
