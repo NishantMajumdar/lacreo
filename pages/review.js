@@ -54,7 +54,7 @@ const Login = () => {
     
         </form>
         <br />
-        <br></br> <br></br> <br></br> 
+        <br></br> 
         <form action="/teacherlist">
         <button type="submit"><span>View Teacher Records</span></button> <br></br><br></br> </form>
       </center>
