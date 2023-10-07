@@ -74,12 +74,11 @@ let submitted=false;
       <center>
        
       <form onSubmit={handleSubmit}>
-          Enter Full Legal Name
-          <br />
+          
           <input name="name" type="text" placeholder="Full Legal Name" /> <br />
           <br />
-          Enter Custom 4-Digit Code <br />
-          <input name="code" type="text" placeholder="Custom Code (4 digit)" /> <br />
+         
+          <input name="code" type="text" placeholder="Enter Custom Code (4 digit)" /> <br />
           <br />
           Check those that apply: <br />
           <input name="bed" type="checkbox" defaultValue="yes" />

@@ -37,17 +37,17 @@ const Login = () => {
       <center>
         <form onSubmit={handleSubmit}>
         <h2>Rate and review of teacher!</h2>
-      Your name<br></br>
+      
       
       
     
-        <input   name="name" type="text" placeholder="Full Name"/> <br/><br/>
-        Enter Custom 4-Digit Code of teacher to review<br/>
+        <input   name="name" type="text" placeholder="Your Full Name"/> <br/><br/>
+        
         <input   name="code"type="text" placeholder="Custom Code (4 digit)"/> <br/><br/>
         Rate your overall experience with the teacher<br/>
         <input   name="rating"type="range"/> <br/> <br/>
-        Enter your comments<br/>  
-        <textarea   name="comment" cols="20" rows="5" placeholder="Your comments"></textarea><br/><br/>
+        
+        <textarea   name="comment" cols="20" rows="5" placeholder="Your expressive comments about the teacher"></textarea><br/><br/>
         
     <button type="submit"  onClick={handleClick}><span>Submit</span></button> 
       
